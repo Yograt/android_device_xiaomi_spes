@@ -4,10 +4,9 @@ GREEN="\033[0;32m"
 YELLOW="\033[1;33m"
 END="\033[0m"
 
-VENDOR_BRANCH="15.0"
-KERNEL_BRANCH="NaughtySilver"
+VENDOR_BRANCH="14.0"
+KERNEL_BRANCH="CAF-4.19"
 HARDWARE_BRANCH="lineage-21"
-DEBUG_BRANCH="lineage-22"
 
 check_dir() {
     if [ -d "$1" ]; then
